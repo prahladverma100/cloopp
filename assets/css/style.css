@@ -42,6 +42,17 @@
     min-height: 741px;
 }
 
+.arrow {
+    right: 43%;
+    bottom: 30%;
+    max-width: 100px;
+}
+
+.max180 {
+    max-width: 140px;
+    width: 100%;
+}
+
 .gap36 {
     gap: 36px;
 }
@@ -181,7 +192,6 @@
 .accordinin1 .accordion-item {
     border: 1px solid #A4A4A4 !important;
     box-shadow: none !important;
-
     border-radius: 10px !important;
 
 }
@@ -461,13 +471,23 @@ svg:hover {
     .h_701 {
         min-height: 400px;
     }
+
+    .max180 {
+        max-width: 180px;
+        width: 100%;
+    }
 }
 
 @media (min-width:768px) {}
 
 @media (min-width:992px) {
     .pt78 {
-        padding-top: 78px;
+        padding-top: 20px;
+    }
+
+    .max180 {
+        max-width: 180px;
+        width: 100%;
     }
 
     .padding_top_bottom {
@@ -481,10 +501,36 @@ svg:hover {
     .h_701 {
         min-height: 600px;
     }
+
+    .min_h {
+        min-height: 603px;
+    }
+
 }
 
 @media (min-width:1200px) {
     .min_h {
+        min-height: 745px;
+    }
+
+    .pt78 {
+        padding-top: 78px;
+    }
+
+    .arrow {
+        max-width: 130px;
+    }
+
+
+}
+
+@media (min-width:1400px) {
+    .min_h {
         min-height: 851px;
     }
+
+    .pt78 {
+        padding-top: 78px;
+    }
+
 }

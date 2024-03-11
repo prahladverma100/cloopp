@@ -28,7 +28,7 @@
 }
 
 .black {
-    color: var(--black);
+    color: var(--black) !important;
 }
 
 /* font_size */
@@ -41,7 +41,7 @@
 }
 
 .fs_lg {
-    font-size: var(--fs_lg);
+    font-size: var(--fs_lg) !important;
 }
 
 .fs_xl {
@@ -79,7 +79,7 @@
 
 @media (min-width:992px) {
     :root {
-        --fs_2xl: 80px;
+        --fs_2xl: 65px;
         --fs_xl: 46px;
         --fs_xsm: 16px;
         --fs_lg: 24px;
@@ -93,6 +93,13 @@
 }
 
 @media (min-width:1200px) {
+    :root {
+        --fs_xl: 52px;
+        --fs_2xl: 80px;
+    }
+}
+
+@media (min-width:1400px) {
     :root {
         --fs_xl: 52px;
     }
