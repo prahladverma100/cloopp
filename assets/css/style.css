@@ -426,7 +426,7 @@ svg:hover {
         background-color: #0073B1 !important;
         width: 100% !important;
         height: 100% !important;
-        z-index: 1 !important;
+        z-index: 12 !important;
         transition: 800ms;
         min-height: 100vh !important;
     }
@@ -434,6 +434,7 @@ svg:hover {
     label[for="checkbox"] {
         height: 28px;
         width: 35px;
+        z-index: 13 !important;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
