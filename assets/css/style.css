@@ -21,15 +21,15 @@
     max-width: 530px;
 }
 
-.py {
+.padding_top_botom {
     padding: 13px 0px 13px 0px;
 }
 
-.img1 {
+/* .img1 {
     max-width: 180px;
-}
+} */
 
-.pt78 {
+.padding-top {
     padding-top: 0px;
 }
 
@@ -38,7 +38,7 @@
         sans-serif;
 }
 
-.min_h {
+.min_height {
     min-height: 741px;
 }
 
@@ -68,17 +68,16 @@
     transition: all 200ms ease-in-out;
 }
 
-.mt {
+.margin_top {
     margin-top: -2px;
 
 }
 
-.mb {
+.margin_bottom {
     margin-bottom: -2px;
 }
 
-.mx_width {
-    /* max-width: 120px; */
+.max_height {
     max-height: 120px;
 }
 
@@ -105,7 +104,7 @@
     padding: 10.5px 0px 10px 0px;
 }
 
-.w-357 {
+.max-width {
     max-width: 357px;
 }
 
@@ -482,7 +481,7 @@ svg:hover {
 @media (min-width:768px) {}
 
 @media (min-width:992px) {
-    .pt78 {
+    .padding-top {
         padding-top: 20px;
     }
 
@@ -503,18 +502,18 @@ svg:hover {
         min-height: 600px;
     }
 
-    .min_h {
+    .min_height {
         min-height: 603px;
     }
 
 }
 
 @media (min-width:1200px) {
-    .min_h {
+    .min_height {
         min-height: 745px;
     }
 
-    .pt78 {
+    .padding-top {
         padding-top: 78px;
     }
 
@@ -526,11 +525,11 @@ svg:hover {
 }
 
 @media (min-width:1400px) {
-    .min_h {
+    .min_height {
         min-height: 851px;
     }
 
-    .pt78 {
+    .padding-top {
         padding-top: 78px;
     }
 
